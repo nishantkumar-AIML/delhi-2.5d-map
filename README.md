@@ -55,7 +55,8 @@ Important cautions and improvements
 	- Export CSV/JSON alongside Excel for easier consumption.
 	- Add CLI flags to limit which pairs to compute and to resume partial runs.
 
-Want me to update `delhi.py` with retries and JSON export and add usage examples? I can implement and commit those changes for you.
+-----------------------------------------------
+-----------------------------------------------
 
 **`src/App.jsx` — file-by-file explanation**
 
@@ -210,14 +211,6 @@ git add .
 git commit -m "Describe your change"
 git push origin main
 ```
-
-If the repository was created locally first and you need to push it to GitHub (owner-side steps):
-
-```bash
-# create repo locally (if needed)
-git init
-git add .
-git commit -m "Initial commit"
 
 # add your GitHub remote and push
 git remote add origin https://github.com/nishantkumar-AIML/delhi-2.5d-map.git
